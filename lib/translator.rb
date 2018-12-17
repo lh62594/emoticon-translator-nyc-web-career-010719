@@ -24,11 +24,11 @@ def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   emoticon_hash = load_library(file_path)
 
-  emoticon_hash.each do |get_emoticon, get_meaning|
+  emoticon_hash.each do |get_emoticon, emoticons|
 
-    binding.pry 
+    binding.pry
 
-    get_emoticon.each do |english, japanese|
+    emoticons.each do |english, japanese|
       if english == emoticon
         jap_emoticon = Japanese
       end
