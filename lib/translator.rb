@@ -15,8 +15,7 @@ def load_library(file_path)
     e_hash["get_meaning"][emoticon.last] = word
   end
 
-  return emoticons
-
+  return e_hash
 
 end
 
