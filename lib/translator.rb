@@ -29,7 +29,7 @@ def get_japanese_emoticon(file_path, emoticon)
         jap_emoticon = Japanese
       end
     end
-  # end
+  end
 
   if jap_emoticon == ""
     return "Sorry, that emoticon was not found"
