@@ -26,7 +26,8 @@ def get_japanese_emoticon(file_path, emoticon)
 
   emoticon_hash.each do |get_hash, emoticons|
     emoticons.each do |english, japanese|
-      binding.pry 
+      binding.pry
+      
       if english == emoticon
         jap_emoticon = Japanese
       end
