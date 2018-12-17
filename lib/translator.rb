@@ -23,19 +23,19 @@ def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   load_library(file_path)
 
-  e_hash.each do |get_emoticon, get_meaning|
-    get_emoticon.each do |english, japanese|
-      if english == emoticon
-        jap_emoticon = Japanese
-      end
-    end
-  end
-
-  if jap_emoticon == ""
-    return "Sorry, that emoticon was not found"
-  else
-    return jap_emoticon
-  end
+  # e_hash.each do |get_emoticon, get_meaning|
+  #   get_emoticon.each do |english, japanese|
+  #     if english == emoticon
+  #       jap_emoticon = Japanese
+  #     end
+  #   end
+  # end
+  #
+  # if jap_emoticon == ""
+  #   return "Sorry, that emoticon was not found"
+  # else
+  #   return jap_emoticon
+  # end
 
 end
 
